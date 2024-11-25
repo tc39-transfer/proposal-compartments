@@ -127,7 +127,7 @@ class WasmModuleSource {
 
 ### CommonJS
 
-There is no, singular perfect solution for binding CommonJS, especially
+There is no singular, perfect solution for binding CommonJS, especially
 taking into account that an asynchronous loader cannot immitate Node.js's
 synchronous loader.
 But, any Node.js library that is portable to the web must be sufficiently
