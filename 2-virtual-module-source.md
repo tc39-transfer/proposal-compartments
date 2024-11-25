@@ -4,7 +4,7 @@
 
 Extend the `Module` constructor such that it accepts virtual module sources:
 objects that implement a protocol that is sufficient for virtualizing the
-evaluation of modules in languages not anticipated by ECMA-262 or a host
+evaluation of modules in languages not anticipated by ECMA-262 or host
 implementations.
 
 ## Motivation
@@ -127,7 +127,7 @@ class WasmModuleSource {
 
 ### CommonJS
 
-There is no, singular perfect solution for binding CommonJS, especially
+There is no singular, perfect solution for binding CommonJS, especially
 taking into account that an asynchronous loader cannot immitate Node.js's
 synchronous loader.
 But, any Node.js library that is portable to the web must be sufficiently
