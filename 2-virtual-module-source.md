@@ -4,7 +4,7 @@
 
 Extend the `Module` constructor such that it accepts virtual module sources:
 objects that implement a protocol that is sufficient for virtualizing the
-evaluation of modules in languages not anticipated by ECMA-262 or a host
+evaluation of modules in languages not anticipated by ECMA-262 or host
 implementations.
 
 ## Motivation
